@@ -1,0 +1,90 @@
+body{
+	background:url("../imgs/1.jpg") 0px -100px;
+}
+#container{
+	width:100%;
+}
+#container>div{
+	width:100%;
+	padding-top:200px;
+}
+#container>div>div{
+	width:;
+}
+.logo{
+	width:800px;
+	margin:0px auto;
+	height:300px;
+	background:-webkit-linear-gradient(top,#097BB7,white);
+	border:5px solid white;
+	box-shadow:0px 0px 40px 5px white;
+}
+.logo form h1{
+	font-size:36px;
+	line-height:36px;
+	text-align:center;
+	margin:10px auto;
+	text-shadow: 5px 10px 5px #666;
+	color:white;
+}
+.logo>form>div{
+	display:flex;
+	justify-content:space-between;
+}
+
+.logo.img{
+	width:40%;
+}
+.logo-img>img{
+	text-align:center;
+}
+.login{
+	width:40%;
+	margin-left:10%;
+}
+.login>li{
+	height:30px;
+	line-height:30px;
+
+}
+.login>li>span:nth-child(1){
+	width:30px;
+	font-size:14px;
+	color:white;
+	font-weight:;
+	text-align:space-between;
+}
+.number{
+	outline:none;
+	border:none;
+	width:100px;
+	height:22px;
+	line-height:22px;
+	font-size:12px;
+	padding:2px 1px;
+}
+.login>li:nth-child(4){
+	display:flex;
+}
+.yanzheng{
+	position:relative;
+	top:10px;
+	left:0px;
+}
+.but{
+	width:50px;
+	height:25px;
+	outline:none;
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+	border-radius:5px;
+	box-shadow:3px 3px 2px #666;
+	background:#E3A234;
+	color:white;
+	font-size:14px;
+	line-height:25px;
+}
+.main{
+	margin-top:30px;
+}
